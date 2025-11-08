@@ -1,0 +1,52 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/blueprint/cca_animals_1",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3.625, 2.875, 8],
+			"to": [12.375, 8, 9.5],
+			"rotation": {
+				"angle": 22.5,
+				"axis": "x",
+				"origin": [3.5, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [9.125, 0.75, 8, 0],
+					"rotation": 180,
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [7.25, 1.75, 8, 2],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9.125, 1.75, 8, 2.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [0, 7.375, 0.75, 7.625],
+					"rotation": 270,
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [9.875, 0.625, 11, 0.875],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [9.75, 8.75, 10.875, 9],
+					"rotation": 180,
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

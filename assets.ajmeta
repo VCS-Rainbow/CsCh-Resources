@@ -1,0 +1,49 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"blueprint": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/blueprint/helmet.json",
+				"assets/animated_java/items/blueprint/blueprint/left_arm.json",
+				"assets/animated_java/items/blueprint/blueprint/left_front_arm.json",
+				"assets/animated_java/items/blueprint/blueprint/left_front_leg.json",
+				"assets/animated_java/items/blueprint/blueprint/left_leg.json",
+				"assets/animated_java/items/blueprint/blueprint/left_paw.json",
+				"assets/animated_java/items/blueprint/blueprint/main_body.json",
+				"assets/animated_java/items/blueprint/blueprint/mouth.json",
+				"assets/animated_java/items/blueprint/blueprint/neck_n_head.json",
+				"assets/animated_java/items/blueprint/blueprint/right_arm.json",
+				"assets/animated_java/items/blueprint/blueprint/right_front_arm.json",
+				"assets/animated_java/items/blueprint/blueprint/right_front_leg.json",
+				"assets/animated_java/items/blueprint/blueprint/right_leg.json",
+				"assets/animated_java/items/blueprint/blueprint/right_paw.json",
+				"assets/animated_java/items/blueprint/blueprint/saddle.json",
+				"assets/animated_java/items/blueprint/blueprint/tail.json",
+				"assets/animated_java/items/blueprint/blueprint/tail_2.json",
+				"assets/animated_java/items/blueprint/blueprint/tail_3.json",
+				"assets/animated_java/items/blueprint/blueprint/tail_4.json",
+				"assets/animated_java/models/blueprint/blueprint/helmet.json",
+				"assets/animated_java/models/blueprint/blueprint/left_arm.json",
+				"assets/animated_java/models/blueprint/blueprint/left_front_arm.json",
+				"assets/animated_java/models/blueprint/blueprint/left_front_leg.json",
+				"assets/animated_java/models/blueprint/blueprint/left_leg.json",
+				"assets/animated_java/models/blueprint/blueprint/left_paw.json",
+				"assets/animated_java/models/blueprint/blueprint/main_body.json",
+				"assets/animated_java/models/blueprint/blueprint/mouth.json",
+				"assets/animated_java/models/blueprint/blueprint/neck_n_head.json",
+				"assets/animated_java/models/blueprint/blueprint/right_arm.json",
+				"assets/animated_java/models/blueprint/blueprint/right_front_arm.json",
+				"assets/animated_java/models/blueprint/blueprint/right_front_leg.json",
+				"assets/animated_java/models/blueprint/blueprint/right_leg.json",
+				"assets/animated_java/models/blueprint/blueprint/right_paw.json",
+				"assets/animated_java/models/blueprint/blueprint/saddle.json",
+				"assets/animated_java/models/blueprint/blueprint/tail.json",
+				"assets/animated_java/models/blueprint/blueprint/tail_2.json",
+				"assets/animated_java/models/blueprint/blueprint/tail_3.json",
+				"assets/animated_java/models/blueprint/blueprint/tail_4.json",
+				"assets/animated_java/textures/blueprint/blueprint/cca_animals_1.png"
+			]
+		}
+	}
+}

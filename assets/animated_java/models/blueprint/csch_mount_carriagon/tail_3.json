@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"0": "animated_java:blueprint/csch_mount_carriagon/cca_animals_1",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [5, 3.02115, 5.85982],
+			"to": [11, 8.02115, 16.85982],
+			"rotation": {
+				"angle": -37.5,
+				"axis": "x",
+				"origin": [11, 8.02115, 7.85982]
+			},
+			"faces": {
+				"north": {
+					"uv": [9.25, 6.125, 10, 6.75],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [7.875, 5.5, 9.25, 6.125],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [9.375, 7.125, 10.125, 7.75],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [7.875, 6.125, 9.25, 6.75],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [1.5, 6.625, 0.75, 5.25],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [7.875, 6, 7.125, 7.375],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}

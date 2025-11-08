@@ -1,0 +1,25 @@
+{
+	"credit": "By Pixel_Cube from Void Creature workShop",
+	"textures": {
+		"layer1": "meow:ui/ui"
+	},
+	"elements": [
+		{
+			"from": [-15, -15, 0],
+			"to": [29, 28.9, 0],
+			"faces": {
+				"south": {"uv": [0, 0, 16, 16], "texture": "#layer1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"ground": {
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"gui": {
+			"translation": [76, 14.2, -20],
+			"scale": [3.98, 4, 1]
+		}
+	}
+}

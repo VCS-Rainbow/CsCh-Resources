@@ -1,0 +1,6 @@
+{
+    "parent": "meow:item/piston_crossbow/piston_crossbow_0",
+    "textures": {
+        "layer0": "meow:item/piston_crossbow/piston_crossbow_arrow_2"
+    }
+}

@@ -3,17 +3,18 @@
 		"format": "animated-java:format/blueprint",
 		"format_version": "1.8.1",
 		"uuid": "145593e1-2cdd-5173-1234-86e97c679f1f",
-		"save_location": "C:\\Game\\Minecraft\\.minecraft\\resourcepacks\\TestCsch\\test.ajblueprint",
-		"last_used_export_namespace": "blueprint"
+		"save_location": "C:\\Game\\Minecraft\\.minecraft\\resourcepacks\\Causing Crash\\test.ajblueprint",
+		"last_used_export_namespace": "csch_mount_carriagon"
 	},
 	"resolution": {
 		"width": 128,
 		"height": 128
 	},
 	"blueprint_settings": {
+		"export_namespace": "csch_mount_carriagon",
 		"render_box": [48, 48],
-		"resource_pack": "C:\\Game\\Minecraft\\.minecraft\\resourcepacks\\TestCsch",
-		"data_pack": "C:\\Game\\Minecraft\\.minecraft\\saves\\1_21_10\\datapacks\\Test"
+		"resource_pack": "C:\\Game\\Minecraft\\.minecraft\\resourcepacks\\Causing Crash",
+		"data_pack": "C:\\Game\\Minecraft\\.minecraft\\saves\\1_21_10\\datapacks\\CsCh-Animations"
 	},
 	"elements": [
 		{
@@ -7918,7 +7919,7 @@
 													"locked": false,
 													"visibility": true,
 													"autouv": 0,
-													"selected": true,
+													"selected": false,
 													"children": ["c30824e2-db90-79f1-beef-26283839ae54"]
 												}
 											]
@@ -8056,7 +8057,8 @@
 							"time": 0.15,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8087,7 +8089,8 @@
 							"time": 0.2,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8284,7 +8287,8 @@
 							"time": 0.2,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8315,7 +8319,8 @@
 							"time": 0.25,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8330,7 +8335,8 @@
 							"time": 0.8,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -8399,7 +8405,8 @@
 							"time": 0.4,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8430,7 +8437,8 @@
 							"time": 0.45,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8627,7 +8635,8 @@
 							"time": 0.4,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8760,7 +8769,8 @@
 							"time": 0.4,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8925,7 +8935,8 @@
 							"time": 0.45,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -8940,7 +8951,8 @@
 							"time": 0.95,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "position",
@@ -9051,7 +9063,8 @@
 							"time": 0.95,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -9104,7 +9117,8 @@
 							"time": 0.9,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9135,7 +9149,8 @@
 							"time": 0.4,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9236,7 +9251,8 @@
 							"time": 0.9,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9417,7 +9433,8 @@
 							"time": 0.25,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9432,7 +9449,8 @@
 							"time": 0.8,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -9533,7 +9551,8 @@
 							"time": 0.25,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9618,7 +9637,8 @@
 							"time": 0.15,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9649,7 +9669,8 @@
 							"time": 0.2,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9664,7 +9685,8 @@
 							"time": 0.7,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						}
 					]
 				},
@@ -9733,7 +9755,8 @@
 							"time": 0.15,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9748,7 +9771,8 @@
 							"time": 0.65,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9849,7 +9873,8 @@
 							"time": 0.15,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9880,7 +9905,8 @@
 							"time": 0.2,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9965,7 +9991,8 @@
 							"time": 0.15,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",
@@ -9996,7 +10023,8 @@
 							"time": 0.2,
 							"color": -1,
 							"interpolation": "catmullrom",
-							"easing": "linear"
+							"easing": "linear",
+							"easingArgs": []
 						},
 						{
 							"channel": "rotation",

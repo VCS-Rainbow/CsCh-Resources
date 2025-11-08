@@ -1,0 +1,298 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "meow:ui/quiver_bar.png",
+			"chars": [
+				"\ue000"
+			],
+            "ascent": 118,
+			"height": 182
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/vicishte.png",
+			"chars":["\ua001"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/lorrah.esh_irekpin.full.png",
+			"chars":["\ua002"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/lorrah.esh_irekpin.pour.png",
+			"chars":["\ua003"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/sternum.png",
+			"chars":["\ua004"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/siar.dgepaee.png",
+			"chars":["\ua005"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/siar.kolh.png",
+			"chars":["\ua006"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/charm.pryite.png",
+			"chars":["\ua007"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:tips/shield.zifh.png",
+			"chars":["\ua008"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/battle_axe.png",
+			"chars":["\u1010"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/battle_axe.upgrade.png",
+			"chars":["\u1011"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/greatsword.png",
+			"chars":["\u1020"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/greatsword.upgrade.png",
+			"chars":["\u1021"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/warhammer.png",
+			"chars":["\u1040"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/warhammer.upgrade.png",
+			"chars":["\u1041"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/shield.frosted.png",
+			"chars":["\u1510"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/shield.thorn.png",
+			"chars":["\u1520"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/shield.explode.png",
+			"chars":["\u1533"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/posstow.png",
+			"chars":["\u2100"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/horn_bow.png",
+			"chars":["\u2200"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/belt.png",
+			"chars":["\u3910"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/quiver.png",
+			"chars":["\u3920"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/lorrah.esh_irekpin.png",
+			"chars":["\u4100"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/charm.regeneration.png",
+			"chars":["\u5010"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/arrow.ap.png",
+			"chars":["\u6110"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/arrow.rocket.png",
+			"chars":["\u6111"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/arrow.shadow.png",
+			"chars":["\u6112"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/arrow.catcher.png",
+			"chars":["\u6113"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/blossomless_rose.png",
+			"chars":["\u8020"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:recipe/baguette.png",
+			"chars":["\u9601"],
+			"height": 100,
+			"ascent": 13
+		},
+		{
+			"type": "bitmap",
+			"file": "meow:shield/zifh_bar.png",
+			"chars":[
+				"\uc000",
+				"\uc001",
+				"\uc002",
+				"\uc003",
+				"\uc004",
+				"\uc005",
+				"\uc006",
+				"\uc007",
+				"\uc008",
+				"\uc009",
+				"\uc010",
+				"\uc011",
+				"\uc012",
+				"\uc013",
+				"\uc014",
+				"\uc015",
+				"\uc016",
+				"\uc017",
+				"\uc018",
+				"\uc019",
+				"\uc020",
+				"\uc021",
+				"\uc022",
+				"\uc023",
+				"\uc024",
+				"\uc025",
+				"\uc026",
+				"\uc027",
+				"\uc028",
+				"\uc029",
+				"\uc030",
+				"\uc031"
+			],
+			"height": 6,
+			"ascent": 5
+		},
+		{
+			"type": "space",
+			"advances": {
+				" ": 1
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf100": -100
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf050": -50
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf045": -45
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf009": -9
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf008": -8
+			}
+		},
+		{
+			"type": "space",
+			"advances": {
+				"\uf001": -1
+			}
+		}
+	]
+}

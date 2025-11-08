@@ -1,0 +1,6 @@
+{
+    "parent": "meow:entity/scarecrow/base",
+    "textures": {
+        "face_paper": "meow:entity/scarecrow/face_main"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "meow:item/horn_bow",
+    "textures": {
+        "layer0": "meow:item/horn_bow_pulling_1"
+    }
+}

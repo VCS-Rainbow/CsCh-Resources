@@ -1,0 +1,143 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "handheld",
+	"textures": {
+		"0": "meow:shield/ice.base",
+		"1": "meow:shield/ice.default",
+		"5": "block/obsidian",
+		"6": "meow:shield/ice.frost",
+		"8": "meow:shield/ice",
+		"particle": "meow:shield/ice.base"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 3],
+			"to": [14, 22, 4],
+			"faces": {
+				"north": {"uv": [3.5, 0.25, 6.5, 5.75], "texture": "#0"},
+				"east": {"uv": [0, 0.25, 0.25, 5.75], "texture": "#0"},
+				"south": {"uv": [0.25, 0.25, 3.25, 5.75], "texture": "#0"},
+				"west": {"uv": [3.25, 0.25, 3.5, 5.75], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 3, 0.25], "texture": "#0"},
+				"down": {"uv": [6.25, 0, 3.5, 0.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 8, -3],
+			"to": [9, 14, 3],
+			"faces": {
+				"north": {"uv": [8.5, 0, 9, 1.5], "texture": "#0"},
+				"east": {"uv": [8.5, 1.5, 10, 3], "texture": "#0"},
+				"south": {"uv": [8, 1.5, 8.5, 3], "texture": "#0"},
+				"west": {"uv": [6.5, 1.5, 8, 3], "texture": "#0"},
+				"up": {"uv": [8, 0, 8.5, 1.5], "texture": "#0"},
+				"down": {"uv": [10, 1.5, 10.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 6, 4.001],
+			"to": [16, 22, 4.001],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 14, 4]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "texture": "#8"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#8", "cullface": "south"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing"},
+				"up": {"uv": [0, 0, 8, 0], "texture": "#missing"},
+				"down": {"uv": [0, 0, 8, 0], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "ice_block",
+			"from": [6, 12, 4],
+			"to": [10, 16, 6],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 14, 5]},
+			"faces": {
+				"north": {"uv": [0, 0, 4, 4], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [8, 8, 4, 6], "rotation": 90, "texture": "#1"},
+				"south": {"uv": [4, 0, 8, 4], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [12, 0, 8, 2], "rotation": 90, "texture": "#1"},
+				"up": {"uv": [2, 6, 4, 10], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [0, 6, 2, 10], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"name": "ice_core",
+			"from": [7, 13, 3.5],
+			"to": [9, 15, 5.5],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 14, 4.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#6"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#6"},
+				"south": {"uv": [2, 0, 4, 2], "texture": "#6"},
+				"west": {"uv": [2, 2, 4, 4], "texture": "#6"},
+				"up": {"uv": [2, 6, 0, 4], "texture": "#6"},
+				"down": {"uv": [6, 0, 4, 2], "texture": "#6"}
+			}
+		},
+		{
+			"from": [6.75, 12.5, 4],
+			"to": [9.25, 15.4, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -1]},
+			"faces": {
+				"north": {"uv": [4, 4, 7, 6.9], "texture": "#5", "cullface": "north"},
+				"east": {"uv": [10, 3, 11, 5.9], "texture": "#5"},
+				"south": {"uv": [4.1, 1, 7.1, 4], "texture": "#5"},
+				"west": {"uv": [13, 2, 14, 5], "texture": "#5"},
+				"up": {"uv": [12, 1, 15, 2], "texture": "#5"},
+				"down": {"uv": [8, 1, 11, 2], "texture": "#5"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [8, -5, 4]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [8, -5, 4]
+		},
+		"firstperson_righthand": {
+			"rotation": [-5, 175, 5],
+			"translation": [-1.25, -9.25, -3.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-5, 175, 5],
+			"translation": [-1.25, -9.25, -3.25]
+		},
+		"ground": {
+			"rotation": [-21.36, 1.08, -5.88],
+			"translation": [0, 4.25, 10]
+		},
+		"gui": {
+			"rotation": [12, -34, -5],
+			"translation": [-3, -2.25, 0],
+			"scale": [0.65, 0.65, 0.65]
+		},
+		"head": {
+			"rotation": [-180, 0, -180],
+			"translation": [0, -8.5, -14],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -6, -8.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "shield",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		},
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [2, 3, 4, 5]
+		}
+	]
+}

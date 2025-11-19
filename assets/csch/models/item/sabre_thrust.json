@@ -114,16 +114,16 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 90, 0],
-			"translation": [0, 4.5, 0.75]
+			"rotation": [0, 90, -40],
+			"translation": [0.25, 3.25, -3]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, -90, 0],
 			"translation": [0, 4.5, 0.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 90, 20],
-			"translation": [1.75, 3.75, -0.75]
+			"rotation": [0, 90, -78],
+			"translation": [1.75, 4, -2]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, 148],

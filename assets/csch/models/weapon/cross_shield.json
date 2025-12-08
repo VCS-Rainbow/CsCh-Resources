@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "中世纪十字盾",
-		"particle": "中世纪十字盾"
+		"0": "cross_shield",
+		"particle": "cross_shield"
 	},
 	"elements": [
 		{

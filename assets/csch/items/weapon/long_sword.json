@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "csch:item/crossbow_steel_empty"
+    "model": "csch:weapon/long_sword"
   }
 }

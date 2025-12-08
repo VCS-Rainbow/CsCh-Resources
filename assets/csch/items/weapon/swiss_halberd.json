@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "csch:item/sabre_thrust"
+    "model": "csch:weapon/swiss_halberd"
   }
 }

@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "csch:item/sabre_hammer"
+    "model": "csch:weapon/sabre/sabre_thrust"
   }
 }

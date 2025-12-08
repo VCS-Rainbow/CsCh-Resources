@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "csch:item/sabre"
+    "model": "csch:block/splitflap_display"
   }
 }

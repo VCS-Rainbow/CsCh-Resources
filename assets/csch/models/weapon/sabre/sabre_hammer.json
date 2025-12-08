@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "csch:item/sabre",
-		"particle": "csch:item/sabre"
+		"0": "csch:weapon/sabre",
+		"particle": "csch:weapon/sabre"
 	},
 	"elements": [
 		{
@@ -114,16 +114,16 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [0, 90, -40],
-			"translation": [0.25, 3.25, -3]
+			"rotation": [22.25, 90, 0],
+			"translation": [0, 4, 3]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, -90, 0],
 			"translation": [0, 4.5, 0.75]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 90, -78],
-			"translation": [1.75, 4, -2]
+			"rotation": [0, 100, 100],
+			"translation": [5, 5.75, -1]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 90, 148],

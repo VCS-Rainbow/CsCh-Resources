@@ -1,0 +1,21 @@
+{
+    "model":{
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/barstard_sword/slash"},
+                "when": "slash"
+            },
+            {
+                "model": {"type": "model", "model": "csch:weapon/barstard_sword/thrust"},
+                "when": "thrust"
+            },
+            {
+                "model": {"type": "model", "model": "csch:weapon/barstard_sword/hammer"},
+                "when": "hammer"
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/barstard_sword"}
+    }
+}

@@ -1,6 +1,13 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "csch:weapon/hammer"
-  }
+    "model":{
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/hammer"},
+                "when": ""
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/hammer"}
+    }
 }

@@ -1,0 +1,17 @@
+{
+    "model":{
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/halberd/mid_grip"},
+                "when": "mid_grip"
+            },
+            {
+                "model": {"type": "model", "model": "csch:weapon/halberd/end_grip"},
+                "when": "end_grip"
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/halberd"}
+    }
+}

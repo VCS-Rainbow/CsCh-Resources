@@ -4,6 +4,26 @@
 			"type": "directory",
 			"source": "blueprint",
 			"prefix": "blueprint/"
-		}
+		},
+        {
+            "type": "directory",
+            "source": "ui",
+            "prefix": "ui/"
+        },
+        {
+            "type": "directory",
+            "source": "weapon",
+            "prefix": "weapon/"
+        },
+        {
+            "type": "directory",
+            "source": "equip",
+            "prefix": "equip/"
+        },
+        {
+            "type": "directory",
+            "source": "stuff",
+            "prefix": "stuff/"
+        }
 	]
 }

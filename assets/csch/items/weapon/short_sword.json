@@ -1,6 +1,17 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "csch:weapon/short_sword"
-  }
+    "model":{
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/short_sword/standard"},
+                "when": "standard"
+            },
+            {
+                "model": {"type": "model", "model": "csch:weapon/short_sword/reverse"},
+                "when": "reverse"
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/short_sword"}
+    }
 }

@@ -1,0 +1,15 @@
+{
+    "parent":"csch:weapon/halberd",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 4, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-0.5, -2, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [13, 0, 0],
+			"translation": [0.75, -3.25, -2]
+		}
+    }
+}

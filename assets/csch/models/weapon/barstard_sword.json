@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "csch:weapon/long_sword"
+		"1": "csch:weapon/barstard_sword"
 	},
 	"elements": [
 		{

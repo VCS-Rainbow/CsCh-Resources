@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "csch:weapon/swiss_harbord",
-		"particle": "csch:weapon/swiss_harbord"
+		"0": "csch:weapon/halberd",
+		"particle": "csch:weapon/halberd"
 	},
 	"elements": [
 		{

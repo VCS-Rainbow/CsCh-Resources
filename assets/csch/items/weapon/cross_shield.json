@@ -1,6 +1,13 @@
 {
-  "model": {
-    "type": "minecraft:model",
-    "model": "csch:weapon/cross_shield"
-  }
+    "model":{
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/cross_shield"},
+                "when": "shield"
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/cross_shield"}
+    }
 }

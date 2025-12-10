@@ -194,19 +194,19 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [2, -1.5, 1]
+			"translation": [2, -1.5, 2]
 		},
 		"thirdperson_lefthand": {
 			"rotation": [0, -180, 0],
-			"translation": [2, -1.5, 1]
+			"translation": [2, -1.5, 2]
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 90, 0],
-			"translation": [-0.5, 1.5, 0]
+			"translation": [-0.5, -1, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, -90, 0],
-			"translation": [-0.5, 1.5, 0]
+			"translation": [-0.5, -1, 0]
 		}
 	},
 	"groups": [

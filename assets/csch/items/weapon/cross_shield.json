@@ -1,5 +1,7 @@
 {
-    "model":{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
         "type": "select",
         "property": "custom_model_data",
         "cases": [
@@ -9,5 +11,18 @@
             }
         ],
         "fallback":{"type": "model", "model": "csch:weapon/cross_shield"}
-    }
+    },
+    "on_true": {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "model": {"type": "model", "model": "csch:weapon/cross_shield"},
+                "when": "shield"
+            }
+        ],
+        "fallback":{"type": "model", "model": "csch:weapon/cross_shield"}
+    },
+    "property": "minecraft:using_item"
+  }
 }

@@ -17,7 +17,7 @@
         "property": "custom_model_data",
         "cases": [
             {
-                "model": {"type": "model", "model": "csch:weapon/cross_shield"},
+                "model": {"type": "model", "model": "csch:weapon/cross_shield/raise"},
                 "when": "shield"
             }
         ],

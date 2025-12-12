@@ -1,5 +1,7 @@
 {
-    "parent":"csch:weapon/halberd",
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "csch:weapon/halberd",
 	"display": {
 		"thirdperson_righthand": {
 			"translation": [-0.5, 4, 0.5]
@@ -10,6 +12,10 @@
 		"firstperson_righthand": {
 			"rotation": [13, 0, 0],
 			"translation": [0.75, -3.25, -2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [13, 0, 0],
+			"translation": [0.75, -3.25, -2]
 		}
-    }
+	}
 }

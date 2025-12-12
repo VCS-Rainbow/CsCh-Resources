@@ -2,14 +2,5 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"parent": "csch:weapon/barstard_sword",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [-9.75, -24.75, 0],
-			"translation": [-0.5, 3, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [-9.75, -24.75, 0],
-			"translation": [-0.5, 3, 1]
-		}
-	}
+	"display": {}
 }

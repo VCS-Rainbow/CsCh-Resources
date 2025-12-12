@@ -1,17 +1,30 @@
 {
     "model":{
         "type": "select",
-        "property": "custom_model_data",
+        "property": "display_context",
         "cases": [
             {
-                "model": {"type": "model", "model": "csch:weapon/halberd/mid_grip"},
-                "when": "mid_grip"
-            },
-            {
-                "model": {"type": "model", "model": "csch:weapon/halberd/end_grip"},
-                "when": "end_grip"
+                "model": {
+                    "type": "model",
+                    "model": "csch:weapon/halberd/icon"
+                },
+                "when": "gui"
             }
         ],
-        "fallback":{"type": "model", "model": "csch:weapon/halberd"}
+        "fallback":{
+            "type": "select",
+            "property": "custom_model_data",
+            "cases": [
+                {
+                    "model": {"type": "model", "model": "csch:weapon/halberd/mid_grip"},
+                    "when": "mid_grip"
+                },
+                {
+                    "model": {"type": "model", "model": "csch:weapon/halberd/end_grip"},
+                    "when": "end_grip"
+                }
+            ],
+            "fallback":{"type": "model", "model": "csch:weapon/halberd"}
+        }
     }
 }

@@ -1,0 +1,23 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "csch:weapon/cross_shield",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 35, 0],
+			"translation": [1.5, -1.5, -0.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, -32, -180],
+			"translation": [1.5, -1.5, -0.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [-90, 65, 90],
+			"translation": [-3.25, 2, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, -65, 90],
+			"translation": [-3.25, 2, 0]
+		}
+	}
+}

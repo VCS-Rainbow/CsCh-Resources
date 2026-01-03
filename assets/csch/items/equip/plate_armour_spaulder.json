@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "csch:armor/plate_armour_spaulder"
+    "model": "csch:equip/plate_armour_spaulder"
   }
 }

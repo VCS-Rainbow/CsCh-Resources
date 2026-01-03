@@ -1,0 +1,30 @@
+{
+    "model":{
+        "type": "select",
+        "property": "display_context",
+        "cases": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "csch:equip/armet_helmet/icon"
+                },
+                "when": "gui"
+            }
+        ],
+        "fallback":{
+            "type": "select",
+            "property": "custom_model_data",
+            "cases": [
+                {
+                    "model": {"type": "model", "model": "csch:equip/armet_helmet/visor_down"},
+                    "when": "visor_down"
+                },
+                {
+                    "model": {"type": "model", "model": "csch:equip/armet_helmet/visor_up"},
+                    "when": "visor_up"
+                }
+            ],
+            "fallback":{"type": "model", "model": "csch:equip/armet_helmet"}
+        }
+    }
+}

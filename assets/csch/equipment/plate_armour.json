@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "csch:plate_armour"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "csch:plate_armour"
+            }
+        ]
+    }
+}
